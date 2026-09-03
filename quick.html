@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Ride</title>
+    <link rel="stylesheet" href="./quick.css" />
+  </head>
+
+  <body>
+    <nav>
+      <section class="nav padd">
+        <div class="nav-l">
+          <img src="./public/quick_ride_logo.png" alt="Quick Ride Logo" />
+        </div>
+
+        <div class="nav-r">
+          <ol>
+            <li>
+              <img src="./public/yellowTaxi.png" class="n-img" alt="" />
+              <span>Taxi</span>
+            </li>
+
+            <li>
+              <img src="./public/carpoolTaxi.png" class="n-img" alt="" />
+              <span>Carpool</span>
+            </li>
+
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <li>Our Blog</li>
+          </ol>
+        </div>
+
+        <!-- Mobile hamburger -->
+        <button
+          class="hamburger"
+          id="hamburger"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </section>
+
+      <!-- Overlay -->
+      <div class="menu-overlay" id="menuOverlay"></div>
+
+      <!-- Mobile navigation -->
+      <aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-menu-header">
+          <span>Menu</span>
+        </div>
+
+        <ul>
+          <li>
+            <a href="#booking">Taxi</a>
+          </li>
+          <li>
+            <a href="#booking">Carpool</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Us</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a href="#blog">Our Blog</a>
+          </li>
+        </ul>
+      </aside>
+    </nav>
+
+    <main id="booking">
+      <section class="main">
+        <h1>Best Taxi . Best Fare</h1>
+
+        <section class="m-btns flex">
+          <div class="btn-1">AIRPORT</div>
+          <div>RENTAL</div>
+          <div>OUTSTATION</div>
+          <div>LOCAL</div>
+        </section>
+
+        <section class="m-ins">
+          <div class="in">
+            <p>PICKUP</p>
+            <div class="inn inn1">
+              <input
+                type="text"
+                placeholder="Enter Pickup Location"
+              />
+            </div>
+          </div>
+
+          <div class="in">
+            <p>DROP</p>
+            <div class="inn">
+              <input
+                type="text"
+                placeholder="Enter Drop Location"
+              />
+            </div>
+          </div>
+
+          <div class="in">
+            <p>WHEN</p>
+            <div class="inn inn2">
+              <input
+                type="text"
+                placeholder="Choose Date and Time"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="btn btn-1">SEARCH CABS</section>
+      </section>
+    </main>
+
+    <section class="three">
+      <section class="mobile">
+        <div class="sec-l">
+          <h2>Download the Quick Ride app to book the taxi</h2>
+
+          <h3>Get ₹50 off, Promo - FIRSTTAXI</h3>
+
+          <div class="store-buttons">
+            <img src="./public/googlePlayStore.png" alt="Google Play Store" />
+            <img src="./public/applePlayStore.png" alt="Apple App Store" />
+          </div>
+        </div>
+
+        <div class="sec-r">
+          <img
+            src="./public/taxiBookingPhoneImg.svg"
+            alt="Taxi booking application"
+          />
+        </div>
+      </section>
+    </section>
+
+    <section class="four" id="about">
+      <section class="grid">
+        <h1>Why Quick Ride Taxi</h1>
+        <p>A Taxi For All Your Travel Needs “On Time & Affordable”</p>
+      </section>
+
+      <div class="boxs">
+        <div class="grid-features">
+          <div class="box">
+            <img src="./public/greenTimer.svg" alt="" class="img1" />
+            <p>On Time Every Time</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenLowestFare.svg" alt="" class="img1" />
+            <p>Lower and Consistent fare</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenNoLastMin.svg" alt="" class="img1" />
+            <p>No Last Minute Cancellation</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenCarpool.svg" alt="" class="img1" />
+            <p>Assured AC Rides</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenChoiseOfRoute.svg" alt="" class="img1" />
+            <p>Choice of Your Route</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenTaxiDriver.svg" alt="" class="img1" />
+            <p>Curteous Drivers</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenTaxiCab.svg" alt="" class="img1" />
+            <p>Save Money With Taxipool</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenSupportImage.svg" alt="" class="img1" />
+            <p>Personal Level Customer Support</p>
+          </div>
+
+          <div class="box">
+            <img src="./public/greenTxtAgentImage.svg" alt="" class="img1" />
+            <p>Dedicated Ride Tracking Executives</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cars">
+      <div class="car">
+        <h1>Our Fleet for Airport Taxi</h1>
+        <p>Lowest Fare at Airport Taxi in India</p>
+
+        <div class="cars-in">
+          <img
+            src="./public/yellowHatchbackTaxi.png"
+            alt="Hatchback Taxi"
+          />
+
+          <img
+            src="./public/yellowSuvTaxi.png"
+            alt="SUV Taxi"
+          />
+
+          <img
+            src="./public/yellowSedanTaxi.png"
+            alt="Sedan Taxi"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="cab">
+      <h1>Popular cab routes from different Airports</h1>
+
+      <div class="cabs">
+        <div class="cab-l">
+          <h3>Select Vehicle Type</h3>
+          <p>To update price, included kms & extra fare</p>
+
+          <div class="rads">
+            <label>
+              <input type="radio" name="rad" id="rad1" />
+              City
+            </label>
+
+            <label>
+              <input type="radio" name="rad" id="rad2" />
+              Outstation
+            </label>
+          </div>
+        </div>
+
+        <div class="cab-r">
+          <img
+            src="./public/selectedHatchBackTaxi.png"
+            alt="Hatchback"
+            class="cimg"
+          />
+
+          <img
+            src="./public/sedanTaxi.png"
+            alt="Sedan"
+            class="cimg"
+          />
+
+          <img
+            src="./public/suvTaxi.png"
+            alt="SUV"
+            class="cimg"
+          />
+        </div>
+      </div>
+
+      <div class="route-buttons" id="routeButtons">
+        <div class="btn-b btn-b-1">Bangalore</div>
+        <div class="btn-b">Hyderbad</div>
+        <div class="btn-b">Chennai</div>
+        <div class="btn-b">Mumbai</div>
+        <div class="btn-b">Delhi</div>
+        <div class="btn-b">Pune</div>
+        <div class="btn-b">Kochi</div>
+      </div>
+    </section>
+
+    <!-- ================= AIRPORT TABLE ================= -->
+    <section class="air">
+      <section class="table1">
+        <div class="head">
+          <h3>Cabs from Bangalore</h3>
+          <h3>Included kms & fare</h3>
+          <h3>Price*</h3>
+        </div>
+
+        <section class="port">
+          <div class="tab">
+            <div class="t1">
+              <h3>Bangalore Airport To Electronic City Cabs</h3>
+              <span>55 kms | 1hrs 30Mins (appx.)</span>
+            </div>
+
+            <div class="t2">
+              <h3>55 kms included</h3>
+              <span>Extra fare ₹15.5/km after 55 kms</span>
+            </div>
+
+            <div class="t3">
+              <h3>₹1,213</h3>
+              <span>Inc. of tolls and taxes</span>
+            </div>
+
+            <div class="t4">
+              <div class="btn-n1">Book Now</div>
+            </div>
+          </div>
+
+          <div class="tab">
+            <div class="t1">
+              <h3>Bangalore Airport To Electronic City Cabs</h3>
+              <span>55 kms | 1hrs 30Mins (appx.)</span>
+            </div>
+
+            <div class="t2">
+              <h3>55 kms included</h3>
+              <span>Extra fare ₹15.5/km after 55 kms</span>
+            </div>
+
+            <div class="t3">
+              <h3>₹1,213</h3>
+              <span>Inc. of tolls and taxes</span>
+            </div>
+
+            <div class="t4">
+              <div class="btn-n1">Book Now</div>
+            </div>
+          </div>
+
+          <div class="tab">
+            <div class="t1">
+              <h3>Bangalore Airport To Electronic City Cabs</h3>
+              <span>55 kms | 1hrs 30Mins (appx.)</span>
+            </div>
+
+            <div class="t2">
+              <h3>55 kms included</h3>
+              <span>Extra fare ₹15.5/km after 55 kms</span>
+            </div>
+
+            <div class="t3">
+              <h3>₹1,213</h3>
+              <span>Inc. of tolls and taxes</span>
+            </div>
+
+            <div class="t4">
+              <div class="btn-n1">Book Now</div>
+            </div>
+          </div>
+
+          <div class="tab">
+            <div class="t1">
+              <h3>Bangalore Airport To Electronic City Cabs</h3>
+              <span>55 kms | 1hrs 30Mins (appx.)</span>
+            </div>
+
+            <div class="t2">
+              <h3>55 kms included</h3>
+              <span>Extra fare ₹15.5/km after 55 kms</span>
+            </div>
+
+            <div class="t3">
+              <h3>₹1,213</h3>
+              <span>Inc. of tolls and taxes</span>
+            </div>
+
+            <div class="t4">
+              <div class="btn-n1">Book Now</div>
+            </div>
+          </div>
+
+          <div class="tab">
+            <div class="t1">
+              <h3>Bangalore Airport To Electronic City Cabs</h3>
+              <span>55 kms | 1hrs 30Mins (appx.)</span>
+            </div>
+
+            <div class="t2">
+              <h3>55 kms included</h3>
+              <span>Extra fare ₹15.5/km after 55 kms</span>
+            </div>
+
+            <div class="t3">
+              <h3>₹1,213</h3>
+              <span>Inc. of tolls and taxes</span>
+            </div>
+
+            <div class="t4">
+              <div class="btn-n1">Book Now</div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <!-- ================= RENTAL ================= -->
+    <section class="seven">
+      <h1>Rental Cab Service from Airport</h1>
+
+      <h3>(Car types-Kms-hours - Fares)</h3>
+
+      <div class="route-buttons">
+        <div class="btn-b btn-b-1">Bangalore</div>
+        <div class="btn-b">Hyderbad</div>
+        <div class="btn-b">Chennai</div>
+        <div class="btn-b">Mumbai</div>
+        <div class="btn-b">Delhi</div>
+        <div class="btn-b">Pune</div>
+        <div class="btn-b">Kochi</div>
+      </div>
+
+      <h2>Select Rental Package</h2>
+
+      <div class="btns-new">
+        <div class="btn-b-1 btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+        <div class="btn-b btn-new">1 Hr 10<br />km</div>
+      </div>
+    </section>
+
+    <!-- ================= RENTAL TABLE ================= -->
+    <section class="eight">
+      <div class="car-tab">
+        <div class="head">
+          <h3>Cab Types</h3>
+          <h3>Seats & bags</h3>
+          <h3>Price</h3>
+        </div>
+
+        <div class="tab-1">
+          <div class="t1 ct1">
+            <img
+              src="./public/taxiHatchBackCar2.png"
+              class="c-img-1"
+              alt="Hatchback"
+            />
+
+            <div class="text-c">
+              <h3>Indica, WagnoR</h3>
+              <span>Hatchback</span>
+            </div>
+          </div>
+
+          <div class="t2 ct2">
+            <div>
+              <img src="./public/seat.svg" alt="" />
+              <span>4 seats</span>
+            </div>
+
+            <div>
+              <img src="./public/luggageBags.svg" alt="" />
+              <span>2 Bags</span>
+            </div>
+
+            <div>
+              <img src="./public/acBlackImage.svg" alt="" />
+              <span>AC</span>
+            </div>
+          </div>
+
+          <div class="t3 ct3">
+            <h3>₹1,213</h3>
+            <span>Inc. of tolls and taxes</span>
+          </div>
+
+          <div class="t4 ct4">
+            <div class="btn-n1">Book Now</div>
+          </div>
+        </div>
+
+        <div class="tab-1">
+          <div class="t1 ct1">
+            <img
+              src="./public/taxiHatchBackCar2.png"
+              class="c-img-1"
+              alt="Hatchback"
+            />
+
+            <div class="text-c">
+              <h3>Indica, WagnoR</h3>
+              <span>Hatchback</span>
+            </div>
+          </div>
+
+          <div class="t2 ct2">
+            <div>
+              <img src="./public/seat.svg" alt="" />
+              <span>4 seats</span>
+            </div>
+
+            <div>
+              <img src="./public/luggageBags.svg" alt="" />
+              <span>2 Bags</span>
+            </div>
+
+            <div>
+              <img src="./public/acBlackImage.svg" alt="" />
+              <span>AC</span>
+            </div>
+          </div>
+
+          <div class="t3 ct3">
+            <h3>₹1,213</h3>
+            <span>Inc. of tolls and taxes</span>
+          </div>
+
+          <div class="t4 ct4">
+            <div class="btn-n1">Book Now</div>
+          </div>
+        </div>
+
+        <div class="tab-1">
+          <div class="t1 ct1">
+            <img
+              src="./public/taxiHatchBackCar2.png"
+              class="c-img-1"
+              alt="Hatchback"
+            />
+
+            <div class="text-c">
+              <h3>Indica, WagnoR</h3>
+              <span>Hatchback</span>
+            </div>
+          </div>
+
+          <div class="t2 ct2">
+            <div>
+              <img src="./public/seat.svg" alt="" />
+              <span>4 seats</span>
+            </div>
+
+            <div>
+              <img src="./public/luggageBags.svg" alt="" />
+              <span>2 Bags</span>
+            </div>
+
+            <div>
+              <img src="./public/acBlackImage.svg" alt="" />
+              <span>AC</span>
+            </div>
+          </div>
+
+          <div class="t3 ct3">
+            <h3>₹1,213</h3>
+            <span>Inc. of tolls and taxes</span>
+          </div>
+
+          <div class="t4 ct4">
+            <div class="btn-n1">Book Now</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="nine" id="blog">
+      <div class="nine-an">
+        <h1>We Serve - Airport, Outstation, Rental & Local</h1>
+      </div>
+
+      <div class="anc">
+        <a href="">Bangalore</a>
+        <a href="">Chennai</a>
+        <a href="">Mumbai</a>
+        <a href="">Pune</a>
+        <a href="">Kochi</a>
+        <a href="">Ncr</a>
+        <a href="">Chandigarh</a>
+      </div>
+
+      <div class="pic-4">
+        <img
+          src="./public/airportImage.png"
+          alt="Airport"
+        />
+
+        <img
+          src="./public/outstationImage.png"
+          alt="Outstation"
+        />
+
+        <img
+          src="./public/localImage.png"
+          alt="Local"
+        />
+
+        <img
+          src="./public/rentalImage.png"
+          alt="Rental"
+        />
+      </div>
+    </section>
+
+    <section class="ten">
+      <section class="custo">
+        <h1>What our Customers are Saying</h1>
+
+        <div class="cu-sec">
+          <div class="cu-l">
+            <img
+              src="./public/Shankar_Sriram_Image.png"
+              alt="Customer"
+            />
+          </div>
+
+          <div class="cu-r">
+            <p>
+              Having used Quick Ride for more than a year, I continue to be
+              impressed by their service. Among other things, I love the fact
+              that their drivers are salaried, highly polite, and punctual.
+              They provide a dedicated person to resolve issues and the option
+              to choose your route. All-in-all Quick Ride has become my go-to
+              ride hailing app
+            </p>
+
+            <h3>-SomeOne</h3>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="eleven" id="contact">
+      <div class="s11">
+        <section class="l11">
+          <h2>
+            Join now and get ₹50 OFF on your first ride Promo code:
+            FIRSTRIDE
+          </h2>
+
+          <h1>Refer your friends and be a partner of Quick Ride</h1>
+
+          <div class="img-s11">
+            <img
+              src="./public/googlePlayStore.png"
+              alt="Google Play Store"
+            />
+
+            <img
+              src="./public/applePlayStore (1).png"
+              alt="Apple App Store"
+            />
+          </div>
+
+          <h3>
+            In case of any question or query, Please write to
+          </h3>
+
+          <a href="mailto:support@quickride.in">
+            support@quickride.in
+          </a>
+        </section>
+
+        <section class="r11">
+          <img
+            src="./public/userReferral.png"
+            alt="Referral"
+          />
+        </section>
+      </div>
+    </section>
+
+    <section class="lists">
+      <div class="list">
+        <ol>
+          <li>Offers</li>
+          <li>Blog</li>
+          <li>Help</li>
+          <li>Terms</li>
+        </ol>
+      </div>
+    </section>
+
+    <footer>
+      <section class="foots">
+        <div class="foot1">
+          <img
+            src="./public/quickRideLogoImage.png"
+            alt="Quick Ride"
+          />
+
+          <p>
+            Quick Ride, Taxi, Jobs & Bazaary are
+            <br />
+            developed by iDisha Info labs pvt. Ltd.
+          </p>
+
+          <div class="logos">
+            <img src="./public/skyBlueFaceBook.svg" alt="Facebook" />
+            <img src="./public/skyBlueTwiter.svg" alt="Twitter" />
+            <img src="./public/skyBlueInstagram.svg" alt="Instagram" />
+            <img src="./public/skyBlueLinkedIn.svg" alt="LinkedIn" />
+          </div>
+        </div>
+
+        <div class="ols">
+          <div class="ol1">
+            <ol>
+              <li>About us</li>
+              <li>Careers</li>
+            </ol>
+          </div>
+
+          <div class="ol2">
+            <ol>
+              <li>Contact Us</li>
+              <li class="copyright">
+                © 2021. Quick Ride. All rights
+                <br />
+                Reserved.
+              </li>
+            </ol>
+          </div>
+
+          <div class="ol3">
+            <ol>
+              <li>Sitemap</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <div class="call-bar">
+      <a href="tel:08047091628">
+        <img
+          src="./public/call.svg"
+          alt="Call"
+        />
+        <span>Call 080 47091628</span>
+      </a>
+    </div>
+
+    
+
+    <script src="./quick.js"></script>
+  </body>
+</html>
