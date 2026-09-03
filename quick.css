@@ -278,8 +278,8 @@ main {
   cursor: pointer;
 }
 
-.btn-1:hover {
-  /* min-height: 50px; */
+.btn-1 {
+  min-height: 50px;
   width: min(225px, 100%);
   background: #000;
   color: #fff !important;
@@ -292,6 +292,10 @@ main {
   justify-content: center;
   font-size: clamp(20px, 2vw, 30px);
   font-weight: 700;
+}
+
+.btn-1:hover{
+  background:000
 }
 
 .m-ins {
