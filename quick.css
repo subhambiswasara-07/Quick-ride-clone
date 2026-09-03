@@ -278,8 +278,8 @@ main {
   cursor: pointer;
 }
 
-.btn-1 {
-  min-height: 50px;
+.btn-1:hover {
+  /* min-height: 50px; */
   width: min(225px, 100%);
   background: #000;
   color: #fff !important;
@@ -294,9 +294,6 @@ main {
   font-weight: 700;
 }
 
-.btn-1:hover {
-  background: #302b2b;
-}
 .m-ins {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
