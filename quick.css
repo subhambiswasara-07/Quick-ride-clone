@@ -294,6 +294,11 @@ main {
   font-weight: 700;
 }
 
+.btn-1:hover{
+
+  background: #333;
+}
+
 
 
 .m-ins {
