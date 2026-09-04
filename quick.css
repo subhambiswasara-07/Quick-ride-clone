@@ -1847,12 +1847,28 @@ footer ol li:hover {
 
 
 
-      .btn-n1:hover {
+@media (min-width:1024px) {
+
+        .btn-n1:hover {
     background: #cf9607 !important;
 color: #000 !important;
   }
 
    .btn-b:hover {
+    background: #fdc32e;
+    color: #000;
+  }
+}
+
+
+
+
+      .btn-n1:active {
+    background: #cf9607 !important;
+color: #000 !important;
+  }
+
+   .btn-b:active {
     background: #fdc32e;
     color: #000;
   }
